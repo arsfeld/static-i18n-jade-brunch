@@ -18,7 +18,7 @@ exports.config:
 
 For each jade template, this plugin will create a en.html and de.html file. 
 
-** index.jade is not converted **
+_index.jade is not converted_
 
 And for each locale, the i18n-node module will create a file inside a directory called locales in the root of your project. It will also keep it updated to untranslated strings, so that you know what you still have to translate.
 
